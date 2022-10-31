@@ -2,9 +2,10 @@ library(simmer)
 library(tidyverse)
 library(data.table)
 
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source("./sim/01_dbm_lora.R")
 source("./sim/02_dbm_lora_one_channel.R")
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+dir.create(paste0("/results"), recursive = T)
 
 
 # Single Channel Simulation ----
