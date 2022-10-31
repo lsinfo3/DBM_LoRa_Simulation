@@ -4,14 +4,6 @@ This is a simulation of the Decentralized Burst Mitigation (DBM) mechanism for L
 
 ![Schematic representation of the DBM algorithm](resources/dbm_example.pdf)
 
-The simulation consists of two distinct models, the signaling model and the MVNO core model, as shown in the figure above.
-
-Devices, represented by the signaling interaction between VLR/SGSN and HLR, aim to complete their attachment cycle consisting of the four depicted signaling messages, while attempting a retry if the timers are triggered.
-
-The core model processes arriving signaling messages and transmits responses to the issuing device.
-
-Note that we call these objects _devices_, although we are not nececarrily talking about physical _IoT devices_. Instead, _devices_ in our simulation are abstract elements that generate signaling load.
-
 ## Implementation and Structure
 
 The simulation has been developed using the [r-simmer](https://r-simmer.org/) discrete event simulation framework for the R programming language.
