@@ -4,6 +4,8 @@ This is a simulation of the Decentralized Burst Mitigation (DBM) mechanism for L
 
 ![Schematic representation of the DBM algorithm](resources/dbm_example.png)
 
+This code wa sused to produce the results for the publication **DBM: Decentralized Burst Mitigation for Periodic LoRa Devices using Self-Organizing Radio Access** submitted to ICC 2023.
+
 ## Implementation and Structure
 
 The simulation has been developed using the [r-simmer](https://r-simmer.org/) discrete event simulation framework for the R programming language.
