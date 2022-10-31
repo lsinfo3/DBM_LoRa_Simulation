@@ -4,8 +4,7 @@ run_dbm<-function(period, run_time, dev_num, delta,scenario,run, ...){
   library(tidyverse)
   library(data.table)
   library(futile.logger)
-  
-  source("~/R/WirelessSim/01_helper_functions.R")
+
   
   default_period_list<<-period
   rcw <<- 1
