@@ -5,7 +5,7 @@ library(data.table)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 source("./sim/01_dbm_lora.R")
 source("./sim/02_dbm_lora_one_channel.R")
-dir.create(paste0("/results"), recursive = T)
+dir.create(paste0("./results"), recursive = T)
 
 
 # Single Channel Simulation ----
