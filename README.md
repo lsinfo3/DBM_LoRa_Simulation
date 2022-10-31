@@ -2,7 +2,7 @@
 
 This is a simulation of the Decentralized Burst Mitigation (DBM) mechanism for LoRa networks.
 
-![Schematic representation of the DBM algorithm](resources/dbm_example.pdf)
+![Schematic representation of the DBM algorithm](resources/dbm_example.png)
 
 ## Implementation and Structure
 
